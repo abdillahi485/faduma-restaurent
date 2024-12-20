@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Arial';
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: #454f6f;
+    height: 100px;
+
+}
+.nav h1{
+    color: #fff;
+    /* font-size: 25px; */
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px 20px;
+}
+
+.nav a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.nav ul li :hover{
+    color: #e6834c;
+    transition: .4s ease-in-out;
+}
+
+.home{
+    background-color: #e6834c;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.home h1{
+    font-family: 'Arial Black';
+    /* font-weight: 1000; */
+}
+.home h2{
+    padding-top: 25px;
+    font-weight: 300;
+}
+
+.about{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 70px;
+    margin: 50px;
+    background-color: #E2EAF4;
+    height: 300px;
+}
+
+.about p{
+    padding-top: 30px;
+}
+
+.menu{
+    margin: 20px 80px;
+
+}
+
+.food{
+    display: flex;
+}
+
+
+.pasta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .pasta h3{
+    padding-bottom: 30px;
+} */
+
+.pasta p{
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.rice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rice p{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.lastSection{
+    display: flex;
+}
+
+.catering{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+
+}
+.catering h3{
+    padding-top: 30px;
+}
+
+.catering p{
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left:150px;
+}
+.contact h3{
+    padding-top: 30px;
+    
+}
+
+.contact p{
+    padding-top: 20px;
+    padding-left: 30px; 
+}
+
+.copyRight{
+    background-color: #e6834c;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.contacts h3{
+    padding: 30px;
+}
+
+.socialMedia i{
+    align-items: center;
+    justify-content: center;
+    padding: 20px 3px;
+    color:#454f6f;
+}
+
+.socialMedia :hover{
+    color: #e6834c;
+    cursor: pointer;
+}
+
+.foodMenu{
+    height: 400px;
+    padding-top: 40px;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #454f6f;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+
+}
+
+.btn:hover{
+    background-color:  #e6834c;
+    transition: .2s;
+}
+.cateringSection{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
